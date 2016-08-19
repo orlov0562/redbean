@@ -30,6 +30,7 @@ Quick Example
 
 How we store a book object with RedBeanPHP:
 ```php
+use RedBeanPHP\R;
 $book = R::dispense("book");
 $book->author = "Santa Claus";
 $book->title = "Secrets of Christmas";
